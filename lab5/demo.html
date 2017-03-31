@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>插入表格</title>
+	</head>
+	<body>
+	<form action="http://10.7.1.98/taozhuo/form_data.php" method="get">
+	<table border="1" cellspacing="0" align="center">
+		<tr>
+			<td width="85" bgcolor="#FFFFFF">用户名：</td>
+			<td width="309" bgcolor="#FFFFFF"><input type="text" /></td>
+		</tr>
+		<tr>
+			<td>密码：</td>
+			<td><input type="password" name="password"/></td>
+		</tr>
+		<tr>
+			<td>确认密码：</td>
+			<td><input type="password" name="password"/></td>
+		</tr>
+		<tr>
+			<td>性别：</td>
+			<td><input type="radio" name="sex"/>男<input type="radio" name="sex"/>女</td>
+		</tr>
+		<tr>
+			<td>生日：</td>
+			<td><select name="calendar">
+				<option>公历</option>
+				<option>农历</option>
+			</select>
+			<select name="year">
+				<option>1990年</option>
+				<option>1991年</option>
+				<option>1992年</option>
+				<option>1993年</option>
+				<option>1994年</option>
+				<option>1995年</option>
+				<option>1996年</option>
+				<option>1997年</option>
+				<option>1998年</option>
+				<option>1999年</option>
+				<option>2000年</option>
+			</select>
+			<select name="month">
+				<option>1月</option>
+				<option>2月</option>
+				<option>3月</option>
+				<option>4月</option>
+				<option>5月</option>
+				<option>6月</option>
+				<option>7月</option>
+				<option>8月</option>
+				<option>9月</option>
+				<option>10月</option>
+				<option>11月</option>
+				<option>12月</option>
+			</select>
+			<select name="day">
+				<option>1日</option>
+				<option>2日</option>
+				<option>3日</option>
+				<option>4日</option>
+				<option>5日</option>
+				<option>6日</option>
+				<option>7日</option>
+				<option>8日</option>
+				<option>9日</option>
+				<option>10日</option>
+				<option>11日</option>
+				<option>12日</option>
+				<option>13日</option>
+				<option>14日</option>
+				<option>15日</option>
+				<option>16日</option>
+				<option>17日</option>
+				<option>18日</option>
+				<option>19日</option>
+				<option>20日</option>
+				<option>21日</option>
+				<option>22日</option>
+				<option>23日</option>
+				<option>24日</option>
+				<option>25日</option>
+				<option>26日</option>
+				<option>27日</option>
+				<option>28日</option>
+				<option>29日</option>
+				<option>30日</option>
+				<option>31日</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>所在地：</td>
+			<td><select name="conutry">
+				<option>中国</option>
+				<option>巴基斯坦</option>
+				<option>挪威</option>
+				<option>毛里求斯</option>
+				<option>德国</option>
+				<option>法国</option>
+				<option>瑞典</option>
+				<option>澳大利亚</option>
+				<option>希腊</option>
+				<option>俄罗斯</option>
+			</select>
+			<select name="province">
+				<option>河北</option>
+				<option>河南</option>
+				<option>湖北</option>
+				<option>湖南</option>
+				<option>广东</option>
+				<option>广西</option>
+			</select>
+			<select name="city">
+				<option>石家庄</option>
+				<option>邯郸</option>
+				<option>唐山</option>
+				<option>张家口</option>
+				<option>沧州</option>
+				<option>衡水</option>
+				<option>贵港</option>
+				<option>郑州</option>
+				<option>北京</option>
+				<option>天津</option>
+				<option>秦皇岛</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>验证码：</td>
+			<td><input type="text" name="number" /><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490974201342&di=4e282168f11064e1615024157bb5030d&imgtype=0&src=http%3A%2F%2Fpic002.cnblogs.com%2Fimages%2F2012%2F116671%2F2012100516070577.png" alt="auth card" width="50" height="15"></td>
+		</tr>
+		<tr>
+			<td>证件类型：</td>
+			<td>
+				<select name="certificate">
+					<option>身份证</option>
+					<option>学生证</option>
+					<option>驾驶证</option>
+					<option>护照</option>
+					<option>港澳通行证</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>证件号：</td>
+			<td><input type="text" name="number"/></td>
+		</tr>
+		<tr>
+			<td>爱好：</td>
+			<td><input type="checkbox" name="hobby[]" />音乐<input type="checkbox" name="hobby[]"/>读书<input type="checkbox" name="hobby[]"/>跳舞<input type="checkbox" name="hobby[]"/>下棋<input type="checkbox" name="hobby[]"/>其他</td>
+		</tr>
+		<tr>
+			<td>说明：</td>
+			<td><textarea rows="7" cols="30"></textarea></td>
+		</tr>
+		<tr>
+			<td>上传头像：</td>
+			<td><input type="file" name="head portrait"></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="submit" value="提交" />&nbsp;<input type="reset" value="重置" />&nbsp;<input type="button" value="按钮" /></td>
+		</tr>
+	</table>
+	</form>
+	</body>
+</html>
